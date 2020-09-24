@@ -13,5 +13,6 @@ public class Bai3 {
         int r = input.nextInt();
         System.out.println("Chu vi la: " + (2 * (double) r * Math.PI));
         System.out.println("Dien tich la: " + (double) (r * r) * Math.PI);
+        input.close();
     }
 }

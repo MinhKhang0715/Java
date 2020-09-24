@@ -15,5 +15,6 @@ public class Bai2 {
         int rong = input.nextInt();
         System.out.println("Chu vi la: " + (dai + rong) * 2);
         System.out.println("Dien tich la: " + (dai * rong));
+        input.close();
     }
 }

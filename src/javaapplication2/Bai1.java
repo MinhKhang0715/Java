@@ -17,5 +17,6 @@ public class Bai1 {
         System.out.println("Hieu la: " + (a - b));
         System.out.println("Tich la: " + (a * b));
         System.out.println("Thuong la: " + (double) (a / b));
+        input.close();
     }
 }

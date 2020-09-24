@@ -18,5 +18,6 @@ public class Bai5 {
         } else if (n > 0) {
             System.out.println(n + " la so duong");
         }
+        input.close();
     }
 }

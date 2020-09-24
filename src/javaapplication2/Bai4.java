@@ -16,5 +16,6 @@ public class Bai4 {
         } else {
             System.out.println(n + " la so le");
         }
+        input.close();
     }
 }

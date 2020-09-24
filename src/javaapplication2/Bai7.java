@@ -25,6 +25,7 @@ public class Bai7 {
         
         System.out.println("Cau e: ");
         cau_e(n);
+        input.close();
     }
     static void cau_a(int num){
         int tong = 0;

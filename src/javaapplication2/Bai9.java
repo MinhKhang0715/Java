@@ -22,6 +22,7 @@ public class Bai9 {
         cau_d(strInput);
        //System.out.println(countWords(strInput));
         cau_e(strInput);
+        input.close();
     }
     //cau a xuat do dai chuoi vua nhap
     static int cau_a(String s){
@@ -83,6 +84,7 @@ public class Bai9 {
         }
         System.out.println("String right: " + strRight);
         System.out.println("String left: " + strLeft);
+        userInput.close();
     }
     //Enter 2 numbers n and k
     //print n characters (in string entered) from position k
@@ -103,6 +105,7 @@ public class Bai9 {
                 break;
             }
         }
+        input.close();
     }
     //cách 2
     static void cau_e(String s){
@@ -117,5 +120,6 @@ public class Bai9 {
             a = s.substring(k,k+n);
         }
         System.out.println(a);
+        input.close();
     }
 }

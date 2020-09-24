@@ -51,5 +51,6 @@ public class Management {
             default:
                 System.out.println("Nhap sai!");
         }
+        choice.close();
     }
 }

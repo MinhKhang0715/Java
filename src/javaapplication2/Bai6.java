@@ -18,5 +18,6 @@ public class Bai6 {
         else {
             System.out.println(n + " khong la so nguyen to");
         }
+        input.close();
     }
 }

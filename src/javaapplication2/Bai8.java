@@ -23,6 +23,7 @@ public class Bai8 {
         cau_e(arr);
         cau_f(arr);
         cau_g(arr);
+        input.close();
     }
     static void cau_a(int []arr){
         int quantity = arr.length;
@@ -84,6 +85,7 @@ public class Bai8 {
         for (int i = 0; i < newQuantity; i++){
             System.out.println(newArr[i]);
         }
+        numInput.close();
     }
     static void cau_f(int []arr){
         Scanner numInput = new Scanner(System.in);
@@ -99,6 +101,7 @@ public class Bai8 {
         for (int i = 0; i < quantity; i++){
             System.out.println(arr[i]);
         }
+        numInput.close();
     }
     //ham kiem tra 1 so co ton tai trong mang khong
     static boolean checkIfExist(int []arr, int num){
@@ -127,5 +130,6 @@ public class Bai8 {
         else{
             System.out.println(numInput + " khong ton tai trong mang");
         }
+        input.close();
     }
 }

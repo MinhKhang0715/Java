@@ -7,7 +7,7 @@ package javaapplication2;
 import java.util.*;
 
 public class Management {
-    public void runApp(){
+    public void runApp() throws Exception{
         Bai1 b1 = new Bai1();
         Bai2 b2 = new Bai2();
         Bai3 b3 = new Bai3();

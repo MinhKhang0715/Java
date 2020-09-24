@@ -11,14 +11,14 @@ import java.util.StringTokenizer;
  * @author Dell
  */
 public class Bai9 {
-    public void run(){
+    public void run() throws Exception{
         Scanner input = new Scanner(System.in);
         System.out.println("Nhap vao 1 chuoi: ");
         String strInput = input.nextLine();
         System.out.println("Cau a: do dai chuoi vua nhap: " + cau_a(strInput));
         System.out.println("Cau b: " + removeSpace(strInput));
         System.out.println("Cau c:"); 
-        printWords(strInput);
+        countWords(strInput);
         System.out.println("Cau d: ");
         cau_d(strInput);
        //System.out.println(countWords(strInput));

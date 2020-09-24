@@ -15,12 +15,14 @@ public class Bai9 {
         Scanner input = new Scanner(System.in);
         System.out.println("Nhap vao 1 chuoi: ");
         String strInput = input.nextLine();
-        System.out.println("Cau a: " + cau_a(strInput));
+        System.out.println("Cau a: do dai chuoi vua nhap: " + cau_a(strInput));
         System.out.println("Cau b: " + removeSpace(strInput));
         System.out.println("Cau c:"); 
         printWords(strInput);
+        System.out.println("Cau d: ");
         cau_d(strInput);
        //System.out.println(countWords(strInput));
+        System.out.println("Cau e: ");
         cau_e(strInput);
         input.close();
     }
